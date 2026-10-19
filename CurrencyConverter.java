@@ -14,7 +14,7 @@ public class CurrencyConverter {
             IO.println("   2 - Exchange euro into pounds");
             IO.println("   0 - Exit the program");
             IO.println();
-            IO.println(  "> ");
+            IO.print("> ");
             int choice = scan.nextInt();
             switch (choice) {
             case 1:
